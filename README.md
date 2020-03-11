@@ -1,7 +1,7 @@
 # hello-world
 It's my 1st homework!
 
-```python
+```python class:"lineNo"
 def hanoi(n, A="A", B="B", C="C"):
     if n > 0:
         hanoi(n-1, A, C, B)
