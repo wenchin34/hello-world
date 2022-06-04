@@ -23,32 +23,14 @@ function add(x, y) {
 }
 ```
 
-1. List item one.
-+
-List item one continued with a second paragraph followed by an
-Indented block.
-+
-.................
-$ ls *.sh
-$ mv *.sh ~/tmp
-.................
-+
-List item continued with a third paragraph.
+**The Cauchy-Schwarz Inequality**
 
-2. List item two continued with an open block.
-+
---
-This paragraph is part of the preceding list item.
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
-a. This list is nested and does not require explicit item
-continuation.
-+
-This paragraph is part of the preceding list item.
+This expression uses `\$` to display a dollar sign: $\sqrt{\$4}$
 
-b. List item b.
+To split <span>$</span>100 in half, we calculate $100/2$
 
-This paragraph belongs to item two of the outer list.
---
 
 ```mermaid
 graph TD;
