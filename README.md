@@ -23,6 +23,39 @@ function add(x, y) {
 }
 ```
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [121.4,24.9],
+              [121.4,25.1],
+              [121.6,25.1],
+              [121.6,24.9]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
 ```javascript {highlight=10}
 ```
 
