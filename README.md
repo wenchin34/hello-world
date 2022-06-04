@@ -31,6 +31,11 @@ This expression uses `\$` to display a dollar sign: $\sqrt{\$4}$
 
 To split <span>$</span>100 in half, we calculate $100/2$
 
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 
 ```mermaid
 graph TD;
